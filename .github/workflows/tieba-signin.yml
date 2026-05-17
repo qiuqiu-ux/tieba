@@ -37,7 +37,7 @@ jobs:
           RETRY_INTERVAL: ${{ secrets.RETRY_INTERVAL || '5000' }}
           
           # 通知相关环境变量
-          ENABLE_NOTIFY: ${{ secrets.ENABLE_NOTIFY || 'false' }}
+          ENABLE_NOTIFY: ${{ secrets.ENABLE_NOTIFY || 'true' }}
           SERVERCHAN_KEY: ${{ secrets.SERVERCHAN_KEY }}
           BARK_KEY: ${{ secrets.BARK_KEY }}
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
